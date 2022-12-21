@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+
+*{
+    margin: 0;
+    
+}
+header{
+    background-color: rgba(60, 69, 67, 0.6);
+    border-radius: 15px 15px 0 0;
+}
+nav>ul{
+    list-style: none;
+    position: fixed;
+    top: 5px;
+}
+nav li{
+    display: inline;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgba(204, 3, 35, 0.5);
+    cursor: pointer;
+    text-transform: uppercase;
+}
+body{
+    font-family: 'Poller One', cursive;
+    background-image: url("../06_CSS_Float/Images/sky.jpg");
+    background-attachment: fixed;
+    color: goldenrod;
+}
+
+footer{
+    height: 4em;
+    background-color: rgba(60, 69, 67, 0.6);
+    border-radius: 0 0 15px 15px;
+    clear: both;
+}
+h1{
+    text-align: center;
+    padding: 0.5em 0;
+}
+
+.button{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgba(204, 3, 35, 0.5);
+    width: fit-content;
+    height: 2em;
+    cursor: pointer;
+    position:relative;
+    top: 1em;
+    box-sizing: border-box;
+    padding-top: 0.25em;
+    margin-left: 22em;
+}
+
+.left{
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 5px;
+    float: left;
+}
+.right{
+    float: right;
+}
+
+.right img{
+    width: 160px;
+    box-shadow: none;
+}
+.farGalaxy{
+    text-align: justify;
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+}
+
+.right table{
+    border: 1px solid goldenrod;
+    border-radius: 0 0 15px 15px;
+}
+#imgLeft{
+    border-bottom-left-radius: 15px;
+}
+#imgRight{
+    border-bottom-right-radius: 15px;
+}
+
+img{
+    box-shadow: rgba(218, 165, 32, 0.438) -10px 10px;
+}

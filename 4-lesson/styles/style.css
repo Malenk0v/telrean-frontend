@@ -1,0 +1,71 @@
+    * {
+        margin: 0;
+    }
+    
+    body {
+        background-color: whitesmoke;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .header {
+        height: 400px;
+        background-image: url("../img/coffee-bgnd.jpeg");
+        background-repeat: no-repeat;
+        background-position: center;
+        box-sizing: border-box;
+        margin-bottom: 50px;
+    }
+    
+    h1 {
+        padding-top: 133px;
+        font-family: 'Covered By Your Grace', cursive;
+        font-size: 100px;
+        color: rgba(3, 150, 100, 0.75);
+        text-align: center;
+    }
+    
+    .main>ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .main li {
+        padding-bottom: 20px;
+    }
+    
+    .main li>h2 {
+        background-color: antiquewhite;
+        font-weight: 100;
+        font-size: 28px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+    }
+    
+    .main li>p,
+    a {
+        font-size: 15px;
+        margin: 0 20px 15px;
+        line-height: 1.5;
+        text-indent: 32px;
+    }
+    
+    .main li>a:link {
+        color: #214e34;
+        font-weight: 800;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    
+    a:visited {
+        color: violet;
+    }
+    
+    a:hover {
+        color: red;
+    }
+    
+    a:active {
+        color: yellow;
+    }

@@ -1,0 +1,34 @@
+body{
+    background-color: antiquewhite;
+    margin: 0;
+}
+
+h1 {
+    color: red;
+    font-size: 48px;
+    cursor: alias;
+    text-align: center;
+    background-color: aqua;
+    
+}
+
+img{
+    width: 40%;
+    
+}
+
+table,td, th{
+    border: 2px solid green;
+    border-collapse: collapse;
+    text-align: center;
+}
+#African{
+    border-radius: 50%;
+}
+
+#test{
+    background-color: orange ;
+    opacity: 50%;
+}
+
+/*Hover

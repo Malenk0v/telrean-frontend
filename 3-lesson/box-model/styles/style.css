@@ -1,0 +1,19 @@
+    
+.div{
+    /* border-top: 1px solid black; */
+    padding-top: 1px;
+    height: 200px;
+    background-color: rgb(128, 128, 192);
+    margin-bottom: 10px;
+}
+.divanddiv{
+    margin: 40px auto ;
+    height: 80%;
+    background-color: rgb(179, 75, 75);
+    
+}
+.div2{
+    margin-top: 20px;
+    height: 200px;
+    background-color: rgb(102, 179, 156);
+}

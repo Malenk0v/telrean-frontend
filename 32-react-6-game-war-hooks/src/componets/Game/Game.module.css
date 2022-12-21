@@ -1,0 +1,23 @@
+.card{
+    font-size: 1em;
+    margin: 5px auto;
+    background-color: darkgrey;
+    border: 1px solid #777373;
+    width: 75px;
+    height: 100px;
+}
+.windowGame{
+    text-align: center;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.infoBar{
+    padding: 0;
+    border: 2px solid cornflowerblue;
+}
+
+.title{
+    background-color: cornflowerblue;
+}
+

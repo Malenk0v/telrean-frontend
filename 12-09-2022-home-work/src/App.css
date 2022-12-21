@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-photo {
+  padding: 10px;
+  border: 1px solid black;
+  width: 500px;
+  height: 500px;
+}
+
+.container-photos {
+  padding: 10px;
+  border: 1px solid black;
+  width: 800px;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  padding: 5px;
+  width: 250px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.container-photo img {
+  width: 400px;
+  height: 400px;
+}

@@ -1,0 +1,11 @@
+.container{
+    min-height: 300px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid cornflowerblue;
+    background-color: rgba(1, 1, 243, 0.10);
+}
